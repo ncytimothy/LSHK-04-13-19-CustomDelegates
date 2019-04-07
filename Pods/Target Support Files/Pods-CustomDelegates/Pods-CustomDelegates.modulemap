@@ -1,0 +1,6 @@
+framework module Pods_CustomDelegates {
+  umbrella header "Pods-CustomDelegates-umbrella.h"
+
+  export *
+  module * { export * }
+}
