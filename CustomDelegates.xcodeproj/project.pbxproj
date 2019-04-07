@@ -12,6 +12,7 @@
 		C409D42E22598BD500C7618C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C409D42C22598BD500C7618C /* Main.storyboard */; };
 		C409D43022598BD600C7618C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C409D42F22598BD600C7618C /* Assets.xcassets */; };
 		C409D43322598BD600C7618C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C409D43122598BD600C7618C /* LaunchScreen.storyboard */; };
+		C4A116AE22599AB300D948BF /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A116AD22599AB300D948BF /* DetailController.swift */; };
 		C4CBFD5022598D5F00EB5A73 /* BaseListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBFD4F22598D5F00EB5A73 /* BaseListController.swift */; };
 		C4CBFD5222598E3A00EB5A73 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBFD5122598E3A00EB5A73 /* UIView+Layout.swift */; };
 		C4CBFD5422598E4600EB5A73 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBFD5322598E4600EB5A73 /* Extensions.swift */; };
@@ -26,6 +27,7 @@
 		C409D42F22598BD600C7618C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C409D43222598BD600C7618C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C409D43422598BD600C7618C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A116AD22599AB300D948BF /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		C4CBFD4F22598D5F00EB5A73 /* BaseListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseListController.swift; sourceTree = "<group>"; };
 		C4CBFD5122598E3A00EB5A73 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Layout.swift"; path = "../../CustomVCTransitionsStarter/CustomVCTransitions/UIView+Layout.swift"; sourceTree = "<group>"; };
 		C4CBFD5322598E4600EB5A73 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				C409D42A22598BD500C7618C /* TodayController.swift */,
 				C4CBFD4F22598D5F00EB5A73 /* BaseListController.swift */,
+				C4A116AD22599AB300D948BF /* DetailController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4CBFD5422598E4600EB5A73 /* Extensions.swift in Sources */,
+				C4A116AE22599AB300D948BF /* DetailController.swift in Sources */,
 				C4CBFD5222598E3A00EB5A73 /* UIView+Layout.swift in Sources */,
 				C409D42B22598BD500C7618C /* TodayController.swift in Sources */,
 				C4CBFD5022598D5F00EB5A73 /* BaseListController.swift in Sources */,

@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let todayController = TodayController()
         let navController = UINavigationController(rootViewController: todayController)
         
-        window?.rootViewController = todayController
+        window?.rootViewController = navController
         
         
         return true
